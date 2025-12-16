@@ -60,3 +60,8 @@ map.entrySet().stream().sorted(Map.Entry.comparingByValue()).mapToInt(Map.Entry:
 
 * 2진수 변환
 Integer.toBinaryString(int a);
+
+
+* Character 숫자를 int로 계산하기
+String.valueOf()로 감싸기 (추천): Integer.parseInt(String.valueOf(strN.charAt(i)))
+문자 빼기: strN.charAt(i) - '0' (가장 빠르고 효율적)
