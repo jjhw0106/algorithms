@@ -2,7 +2,7 @@ package programmers;
 
 import java.util.*;
 
-public class 문자열계산하기0lv {
+public class 문자열계산하기lv0 {
     static public int solution(String my_string) {
         int answer = 0;
         String[] str = my_string.split(" ");

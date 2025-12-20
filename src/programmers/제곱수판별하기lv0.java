@@ -1,0 +1,11 @@
+package programmers;
+
+import java.util.*;
+
+public class 제곱수판별하기lv0 {
+    public int solution(int n) {
+        int a = (int) Math.sqrt(n);
+
+        return a*a == n ? 1 : 2;
+    }
+}

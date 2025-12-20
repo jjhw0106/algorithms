@@ -2,10 +2,8 @@ package programmers;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
 
-public class 배열의유사도0lv {
+public class 배열의유사도lv0 {
     static public int solution(String[] s1, String[] s2) {
         int answer = 0;
 

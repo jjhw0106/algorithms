@@ -1,6 +1,6 @@
 package programmers;
 
-public class 숫자찾기0lv {
+public class 숫자찾기lv0 {
     static public int solution(int num, int k) {
 
         String strNum = String.valueOf(num);
