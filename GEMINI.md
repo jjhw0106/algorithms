@@ -34,5 +34,12 @@
   - `칠의개수: StringBuilder를 사용하여 숫자를 문자열로 변환 후 '7' 카운트`
   - `머쓱이보다키큰사람: Stream API를 사용하여 내림차순 정렬 후 비교`
 
+## 4. 커밋 실행 가이드 (Commit Execution Guide)
+- **멀티라인 메시지 처리**: 커밋 메시지가 길거나 여러 줄(Multi-line)로 구성된 경우, 쉘 명령어 파싱 오류를 방지하기 위해 **반드시** 별도의 텍스트 파일(예: `commit_msg.txt`)에 메시지를 작성한 뒤 `git commit -F <파일명>` 옵션을 사용하여 커밋합니다.
+  - **권장 절차**:
+    1. `write_file`: `commit_msg.txt` 생성 (메시지 내용 작성)
+    2. `run_shell_command`: `git commit -F commit_msg.txt`
+    3. `run_shell_command`: `del commit_msg.txt` (Windows) 또는 `rm commit_msg.txt` (Mac/Linux)
+
 ---
-*최종 업데이트: 2025-12-21*
+*최종 업데이트: 2025-12-26*

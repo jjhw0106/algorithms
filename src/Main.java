@@ -49,27 +49,27 @@ public class Main {
 //        System.out.println("머쓱이보다키큰사람: " + new 머쓱이보다키큰사람().solution(new int[]{149, 180, 192, 170}, 167));
 
         // 직사각형넓이구하기
-        System.out.println("직사각형넓이구하기: " + new 직사각형넓이구하기().solution(new int[][]{{1, 1}, {2, 1}, {2, 2}, {1, 2}}));
-
-        // 캐릭터의좌표
-        System.out.println("캐릭터의좌표: " + Arrays.toString(new 캐릭터의좌표().solution(new String[]{"left", "right", "up", "right", "right"}, new int[]{11, 11})));
-
-        // 최댓값만들기2
-        System.out.println("최댓값만들기2: " + new 최댓값만들기2().solution(new int[]{1, 2, -3, -4, -5}));
-
-        // 다항식더하기
-        System.out.println("다항식더하기: " + new 다항식더하기().solution("3x + 7 + x"));
+//        System.out.println("직사각형넓이구하기: " + new 직사각형넓이구하기().solution(new int[][]{{1, 1}, {2, 1}, {2, 2}, {1, 2}}));
+//
+//        // 캐릭터의좌표
+//        System.out.println("캐릭터의좌표: " + Arrays.toString(new 캐릭터의좌표().solution(new String[]{"left", "right", "up", "right", "right"}, new int[]{11, 11})));
+//
+//        // 최댓값만들기2
+//        System.out.println("최댓값만들기2: " + new 최댓값만들기2().solution(new int[]{1, 2, -3, -4, -5}));
+//
+//        // 다항식더하기
+//        System.out.println("다항식더하기: " + new 다항식더하기().solution("3x + 7 + x"));
 
         // 숨어있는숫자의덧셈2
         System.out.println("숨어있는숫자의덧셈2: " + new 숨어있는숫자의덧셈2().solution("aAb1B2cC34oOp"));
 
         // 안전지대
-        System.out.println("안전지대: " + new 안전지대().solution(new int[][]{{0, 0, 0, 0, 0}, {0, 0, 0, 0, 0}, {0, 0, 0, 0, 0}, {0, 0, 1, 0, 0}, {0, 0, 0, 0, 0}}));
+        System.out.println("안전지대: " + new 안전지대().solution(new int[][]{{1, 1, 1, 1, 1}, {1, 1, 1, 1, 1}, {1, 1, 1, 1, 1}, {1, 1, 1, 1, 1}, {1, 1, 1, 1, 1}}));
 
         // 삼각형의완성조건2
-        System.out.println("삼각형의완성조건2: " + new 삼각형의완성조건2().solution(new int[]{1, 2}));
+        System.out.println("삼각형의완성조건2: " + new 삼각형의완성조건2().solution(new int[]{3, 3}));
 
         // 외계어사전
-        System.out.println("외계어사전: " + new 외계어사전().solution(new String[]{"p", "o", "s"}, new String[]{"sod", "eocd", "qixm", "adio", "soo"}));
+        System.out.println("외계어사전: " + new 외계어사전().solution(new String[]{"p", "o", "s"}, new String[]{"soddd", "eocd", "qixm", "adio", "soo"}));
     }
 }
