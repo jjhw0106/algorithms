@@ -64,7 +64,7 @@ public class Main {
         System.out.println("숨어있는숫자의덧셈2: " + new 숨어있는숫자의덧셈2().solution("aAb1B2cC34oOp"));
 
         // 안전지대
-        System.out.println("안전지대: " + new 안전지대().solution(new int[][]{{1, 1, 1, 1, 1}, {1, 1, 1, 1, 1}, {1, 1, 1, 1, 1}, {1, 1, 1, 1, 1}, {1, 1, 1, 1, 1}}));
+        System.out.println("안전지대: " + new 안전지대().solution(new int[][]{{0, 0, 0, 0, 0}, {0, 0, 0, 0, 0}, {0, 0, 0, 0, 0}, {0, 0, 1, 0, 0}, {0, 0, 0, 0, 0}}));
 
         // 삼각형의완성조건2
         System.out.println("삼각형의완성조건2: " + new 삼각형의완성조건2().solution(new int[]{3, 3}));
