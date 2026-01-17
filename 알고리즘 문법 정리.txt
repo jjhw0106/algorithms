@@ -65,3 +65,21 @@ Integer.toBinaryString(int a);
 * Character 숫자를 int로 계산하기
 String.valueOf()로 감싸기 (추천): Integer.parseInt(String.valueOf(strN.charAt(i)))
 문자 빼기: strN.charAt(i) - '0' (가장 빠르고 효율적)
+
+* 유클리드 호제법 (최대공약수 구하기)
+21 12
+a = 12
+r = 9
+a = 9
+r = 3
+a = 3
+r = 0
+int gcd(int a, int b) {
+    while(b!=0) {
+        int r = a % b;
+        a = b;
+        b = r;
+    }
+
+    return a;
+}

@@ -15,6 +15,11 @@ import programmers.숨어있는숫자의덧셈2;
 import programmers.안전지대;
 import programmers.삼각형의완성조건2;
 import programmers.외계어사전;
+import programmers.저주의숫자3;
+import programmers.평행;
+import programmers.겹치는선분의길이;
+import programmers.유한소수판별하기;
+
 import java.util.Arrays;
 
 public class Main {
@@ -61,15 +66,27 @@ public class Main {
 //        System.out.println("다항식더하기: " + new 다항식더하기().solution("3x + 7 + x"));
 
         // 숨어있는숫자의덧셈2
-        System.out.println("숨어있는숫자의덧셈2: " + new 숨어있는숫자의덧셈2().solution("aAb1B2cC34oOp"));
+//        System.out.println("숨어있는숫자의덧셈2: " + new 숨어있는숫자의덧셈2().solution("aAb1B2cC34oOp"));
+//
+//        // 안전지대
+//        System.out.println("안전지대: " + new 안전지대().solution(new int[][]{{0, 0, 0, 0, 0}, {0, 0, 0, 0, 0}, {0, 0, 0, 0, 0}, {0, 0, 1, 0, 0}, {0, 0, 0, 0, 0}}));
+//
+//        // 삼각형의완성조건2
+//        System.out.println("삼각형의완성조건2: " + new 삼각형의완성조건2().solution(new int[]{3, 3}));
+//
+//        // 외계어사전
+//        System.out.println("외계어사전: " + new 외계어사전().solution(new String[]{"p", "o", "s"}, new String[]{"soddd", "eocd", "qixm", "adio", "soo"}));
 
-        // 안전지대
-        System.out.println("안전지대: " + new 안전지대().solution(new int[][]{{0, 0, 0, 0, 0}, {0, 0, 0, 0, 0}, {0, 0, 0, 0, 0}, {0, 0, 1, 0, 0}, {0, 0, 0, 0, 0}}));
+        // 저주의 숫자 3
+        System.out.println("저주의 숫자 3: " + new 저주의숫자3().solution(15));
 
-        // 삼각형의완성조건2
-        System.out.println("삼각형의완성조건2: " + new 삼각형의완성조건2().solution(new int[]{3, 3}));
+        // 평행
+        System.out.println("평행: " + new 평행().solution(new int[][]{{1, 4}, {9, 2}, {3, 8}, {11, 6}}));
 
-        // 외계어사전
-        System.out.println("외계어사전: " + new 외계어사전().solution(new String[]{"p", "o", "s"}, new String[]{"soddd", "eocd", "qixm", "adio", "soo"}));
+        // 겹치는 선분의 길이
+        System.out.println("겹치는 선분의 길이: " + new 겹치는선분의길이().solution(new int[][]{{0, 5}, {3, 9}, {1, 10}}));
+
+        // 유한소수 판별하기
+        System.out.println("유한소수 판별하기: " + new 유한소수판별하기().solution(7, 20));
     }
 }
