@@ -22,6 +22,10 @@ import programmers.유한소수판별하기;
 import programmers.등수매기기;
 import programmers.옹알이;
 import programmers.로그인성공;
+import programmers.치킨쿠폰;
+import programmers.이진수더하기;
+import programmers.A로B만들기;
+import programmers.K의개수;
 
 import java.util.Arrays;
 
@@ -93,12 +97,24 @@ public class Main {
         System.out.println("유한소수 판별하기: " + new 유한소수판별하기().solution(7, 20));
 
         // 등수 매기기
-        System.out.println("등수 매기기: " + new 등수매기기().solution(new int[]{80, 70, 90}));
+        System.out.println("등수 매기기: " + Arrays.toString(new 등수매기기().solution(new int[][]{{80, 70}, {90, 50}, {40, 70}, {50, 80}})));
 
         // 옹알이
-        System.out.println("옹알이: " + new 옹알이().solution(new int[]{1, 2, 3}));
+        System.out.println("옹알이: " + new 옹알이().solution(new String[]{"aya", "yee", "u", "maa", "wyeoo"}));
 
         // 로그인 성공
-        System.out.println("로그인 성공: " + new 로그인성공().solution(new int[]{10, 20}));
+        System.out.println("로그인 성공: " + new 로그인성공().solution(new String[]{"meosseugi", "1234"}, new String[][]{{"rardss", "123"}, {"yyoom", "1234"}, {"meosseugi", "1234"}}));
+
+        // 치킨 쿠폰
+        System.out.println("치킨 쿠폰: " + new 치킨쿠폰().solution(1081));
+
+        // 이진수 더하기
+        System.out.println("이진수 더하기: " + new 이진수더하기().solution("10", "11"));
+
+        // A로 B 만들기
+        System.out.println("A로 B 만들기: " + new A로B만들기().solution("olleh", "hello"));
+
+        // k의 개수
+        System.out.println("k의 개수: " + new K의개수().solution(1, 13, 1));
     }
 }
