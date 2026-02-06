@@ -93,12 +93,12 @@ public class Main {
         System.out.println("유한소수 판별하기: " + new 유한소수판별하기().solution(7, 20));
 
         // 등수 매기기
-        System.out.println("등수 매기기: " + new 등수매기기().solution(new int[]{}));
+        System.out.println("등수 매기기: " + new 등수매기기().solution(new int[]{80, 70, 90}));
 
         // 옹알이
-        System.out.println("옹알이: " + new 옹알이().solution(new int[]{}));
+        System.out.println("옹알이: " + new 옹알이().solution(new int[]{1, 2, 3}));
 
         // 로그인 성공
-        System.out.println("로그인 성공: " + new 로그인성공().solution(new int[]{}));
+        System.out.println("로그인 성공: " + new 로그인성공().solution(new int[]{10, 20}));
     }
 }

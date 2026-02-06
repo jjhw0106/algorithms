@@ -1,0 +1,5 @@
+feat: Update algorithm problem templates and Main.java test cases
+
+- 등수매기기: Initial template and Main.java test case updated with dummy input
+- 옹알이: Initial template and Main.java test case updated with dummy input
+- 로그인성공: Initial template and Main.java test case updated with dummy input
