@@ -19,6 +19,9 @@ import programmers.저주의숫자3;
 import programmers.평행;
 import programmers.겹치는선분의길이;
 import programmers.유한소수판별하기;
+import programmers.등수매기기;
+import programmers.옹알이;
+import programmers.로그인성공;
 
 import java.util.Arrays;
 
@@ -88,5 +91,14 @@ public class Main {
 
         // 유한소수 판별하기
         System.out.println("유한소수 판별하기: " + new 유한소수판별하기().solution(7, 20));
+
+        // 등수 매기기
+        System.out.println("등수 매기기: " + new 등수매기기().solution(new int[]{}));
+
+        // 옹알이
+        System.out.println("옹알이: " + new 옹알이().solution(new int[]{}));
+
+        // 로그인 성공
+        System.out.println("로그인 성공: " + new 로그인성공().solution(new int[]{}));
     }
 }
