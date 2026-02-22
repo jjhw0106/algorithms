@@ -1,4 +1,0 @@
-feat: .gitignore 최적화 및 IDE 설정 파일 추적 제외
-
-- .gitignore에 .idea/ 폴더 및 *.iml 파일 추가
-- 이미 트래킹되고 있던 IntelliJ 설정 파일들을 Git 인덱스에서 제거
